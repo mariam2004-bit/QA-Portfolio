@@ -356,3 +356,34 @@
 - Operating System: Microsoft Windows 10 Pro Education
 - Browser: Brave 1.81.135 (Official Build) (64-bit)
 - Reproducibility Rate: 100%
+
+14.**Title:** AI Prediction does not scan uploaded file
+
+**Description:**  
+When a user uploads a file in the File Upload section to check whether it was written by AI or a human, the system does not scan the file.
+
+**Environment:**  
+Device: DESKTOP-7T2FBT1  
+Operating System: 64-bit operating system, x64-based processor  
+Browser: Microsoft Edge Version 142.0.3595.53 (Official build) (64-bit)
+
+**Precondition:**  
+- User is logged in.  
+- File Upload / AI Prediction feature is accessible.
+
+**Steps to Reproduce:**  
+1. Open website example.com  
+2. Navigate to “AI Prediction”  
+3. Click “File Upload”  
+4. Write Title  
+5. Upload a file
+
+**Actual Result:**  
+The system does not scan the uploaded file.
+
+**Expected Result:**  
+The system should automatically scan the uploaded file.
+
+**Reproducibility:** 100%  
+
+**Priority:** High
