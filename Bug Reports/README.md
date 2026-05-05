@@ -387,3 +387,134 @@ The system should automatically scan the uploaded file.
 **Reproducibility:** 100%  
 
 **Priority:** High
+
+15.**Title:** Popup "No" button overlaps the ad popup text on Gauntlets screen
+
+**Body:**
+* Type: UI  
+* Severity: Minor  
+* Priority: Medium  
+* Environment: Mobile app, Android/iOS  
+
+* Summary: Popup "No" button overlaps the ad popup text on Gauntlets screen  
+
+* Description: On the Gauntlets screen, the "No" button in the ad offer popup is positioned incorrectly and overlaps the sentence "Would you like to watch an ad for coins?", making part of the text unreadable.  
+
+* Steps to Reproduce:
+- Open the game  
+- Navigate to the “Earn Gauntlets” mode screen  
+- Wait for the "Would you like to watch an ad for coins?" popup to appear  
+- Observe the "No" button overlapping the text  
+
+* Actual Result: The "No" button is positioned incorrectly, causing it to cover part of the sentence "Would you like to watch an ad for coins?"  
+
+* Expected Result: The 'No' button should be placed below the sentence 'Would you like to watch an ad for coins?' next to the 'Yes' button  
+
+16.**Title:** Missing "+" icon next to one of the currency counters
+
+**Body:**
+* Type: UI  
+* Severity: Minor  
+* Priority: Medium  
+* Environment: Mobile app, Android/iOS  
+
+* Summary: Missing "+" icon next to one of the currency counters  
+
+* Description: On the top resource bar, most currencies have a green "+" icon that allows users to add or purchase more resources. However, one currency type does not display the "+" icon, resulting in inconsistent UI behavior.  
+
+* Steps to Reproduce:
+- Open the game  
+- Observe the top resource bar  
+- Compare all currency icons  
+
+* Actual Result: One of the currency counters does not have a "+" icon  
+
+* Expected Result: All applicable currency/resource counters should display a "+" icon for consistency and usability  
+
+17.**Title:** Incorrect order total calculation in the shopping cart
+
+**Body:**
+* Type: Functional  
+* Severity: Critical  
+* Priority: High  
+* Environment: Web browser, shopping cart page  
+
+* Summary: Incorrect order total calculation in the shopping cart  
+
+* Description: The displayed total does not match the actual sum of cart items and discount calculation.  
+
+* Steps to Reproduce:
+- Open the website “Shop.ge”  
+- Add the following items to the cart: Men's Boots (x1), Men's Jacket (x1), Men's T-shirt (x2), Men's German Flag T-shirt (x1)  
+- Navigate to the cart page  
+- Compare displayed total with manual calculation  
+
+* Actual Result: Total shows $299.45, which does not match the correct calculation  
+
+* Expected Result: Total should display $187.56, correctly reflecting the sum of all items minus discount  
+
+ 18.**Title:** Cart page displays prices in mixed currencies USD ($) and EUR (€) despite USD being selected
+
+**Body:**
+* Type: Localization  
+* Severity: Critical  
+* Priority: High  
+* Environment: Web browser, shopping cart page  
+
+* Summary: Cart page displays mixed currencies despite USD selection  
+
+* Description: Some items show USD ($) while others show EUR (€), causing inconsistency in pricing display.  
+
+* Steps to Reproduce:
+- Open the website “Shop.ge”  
+- Select currency to "USD"  
+- Add items to the cart  
+- Navigate to cart page  
+- Observe currency symbols  
+
+* Actual Result: Mixed currencies are displayed across items  
+
+* Expected Result: All prices should be displayed consistently in USD  
+
+19.**Title:** Cart icon badge shows incorrect quantity of items
+
+**Body:**
+* Type: Functional  
+* Severity: Minor  
+* Priority: Medium  
+* Environment: Web browser, shopping cart page  
+
+* Summary: Cart icon badge count does not match actual cart quantity  
+
+* Description: Badge shows 6 items while actual total quantity is 5.  
+
+* Steps to Reproduce:
+- Open the website “Shop.ge”  
+- Add items to the cart  
+- Observe cart icon badge  
+- Compare with actual cart quantity  
+
+* Actual Result: Badge displays "6" instead of 5  
+
+* Expected Result: Badge should display correct total quantity (5)  
+
+20.**Title:** US flag and USD currency are displayed alongside "German" language label in the header
+
+**Body:**
+* Type: UI / Localization  
+* Severity: Minor  
+* Priority: Low  
+* Environment: Web browser, shopping cart page  
+
+* Summary: Conflicting localization indicators in header  
+
+* Description: US flag and USD currency are shown while "German" language is selected, causing inconsistency.  
+
+* Steps to Reproduce:
+- Open the website “Shop.ge”  
+- Select "German" locale  
+- Observe header localization indicators  
+
+* Actual Result: US flag and USD currency are shown with "German" label  
+
+* Expected Result: Header should consistently reflect selected locale (e.g., German flag and matching currency)  
