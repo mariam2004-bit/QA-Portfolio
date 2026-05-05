@@ -518,3 +518,116 @@ And the system should highlight exact matches
 
 **Severity:** Major  
 **Priority:** High
+
+27. **Title:** Login with valid credentials
+
+* Priority: Critical  
+* Module: Authentication  
+* Preconditions: User is registered. User is on the Login page.  
+
+* Steps:
+- Enter valid email into the "Email" field.  
+- Enter valid password into the "Password" field.  
+- Click the [Log In] button.  
+
+* Expected Result: User is successfully logged in and redirected to the Home page.  
+* Status: To be run  
+
+
+28. **Title:** Logout functionality
+
+* Priority: Critical  
+* Module: Authentication  
+* Preconditions: User is logged in.  
+
+* Steps:
+- Click on the user avatar/profile icon.  
+- Click the [Log Out] button.  
+
+* Expected Result: User is logged out and redirected to the Login page.  
+* Status: To be run  
+
+
+29. **Title:** Course catalog display
+
+* Priority: Critical  
+* Module: Course Catalog  
+* Preconditions: User is logged in.  
+
+* Steps:
+- Navigate to the Courses page.  
+
+* Expected Result: A list of available courses is displayed with titles and descriptions.  
+* Status: To be run  
+
+
+30. **Title:** Enroll in a course
+
+* Priority: Critical  
+* Module: Course Catalog  
+* Preconditions: User is logged in. The course is not yet enrolled.  
+
+* Steps:
+- Open any course from the catalog.  
+- Click the [Enroll] button.  
+
+* Expected Result: User is successfully enrolled. The course is marked as enrolled.  
+* Status: To be run  
+
+
+31. **Title:** Open and play a lesson
+
+* Priority: Critical  
+* Module: Course Player  
+* Preconditions: User is enrolled in a course.  
+
+* Steps:
+- Open the enrolled course.  
+- Click on the first lesson.  
+- Click the [Play] button.  
+
+* Expected Result: Lesson starts playing without errors.  
+* Status: To be run  
+
+
+32. **Title:** Progress saving after completing a lesson
+
+* Priority: Critical  
+* Module: Course Player  
+* Preconditions: User is enrolled in a course. The first lesson is open.  
+
+* Steps:
+- Complete the lesson (watch to the end).  
+- Navigate back to the course page.  
+
+* Expected Result: The lesson is marked as completed. Overall course progress is updated.  
+* Status: To be run  
+
+
+33. **Title:** Search with valid keyword
+
+* Priority: Critical  
+* Module: Search  
+* Preconditions: User is logged in.  
+
+* Steps:
+- Click on the search bar.  
+- Enter a valid course name (e.g., "Python").  
+- Press [Enter] or click the search icon.  
+
+* Expected Result: Search results display relevant courses matching the keyword.  
+* Status: To be run  
+
+
+34. **Title:** User profile page access
+
+* Priority: Critical  
+* Module: User Profile  
+* Preconditions: User is logged in.  
+
+* Steps:
+- Click on the user avatar/name.  
+- Select "Profile" from the dropdown.  
+
+* Expected Result: Profile page is displayed with the user's personal information and learning progress.  
+* Status: To be run  
